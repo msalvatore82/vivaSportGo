@@ -1,6 +1,6 @@
 export const styles = {
     section: {
-        padding: '2rem 1rem 1rem 1rem',
+        padding: '4rem 2rem 2rem 2rem',
         maxWidth: '1200px',
         margin: '0 auto',
     },
@@ -10,6 +10,13 @@ export const styles = {
         fontWeight: 700,
         fontSize: '2.2rem',
         letterSpacing: '1px',
+    },
+    cardsContainer: {
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        gap: '1rem',
+        width: '100%',
     },
     card: {
         height: '100%',
