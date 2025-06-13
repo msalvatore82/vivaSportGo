@@ -9,9 +9,9 @@ import { Autoplay } from 'swiper/modules';
 import { styles } from './style';
 import { Box, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-import '@swiper/swiper.min.css';
-
-
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const slides = [
   {
