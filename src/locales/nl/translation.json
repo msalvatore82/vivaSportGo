@@ -19,14 +19,18 @@
     "slide4_text": "Conquer the field and leave your mark in history.",
     "service_accommodation": "Accommodatie",
     "service_accommodation_desc": "Comfortabele kamers voor je team",
-    "service_transport": "Transport",
+    "service_accommodation_descLong": "Ons accommodatieservice biedt moderne, comfortabele kamers die specifiek zijn ontworpen voor sportteams. Geniet van ruime leefruimtes, hoge snelheid Wi-Fi, voedzame maaltijden en eenvoudige toegang tot trainingsfaciliteiten. We zorgen ervoor dat je team een rustige omgeving heeft om zich te concentreren op prestaties en herstel.",
+      "service_transport": "Transport",
     "service_transport_desc": "Veilige en tijdige overvoeringen",
+    "service_transport_descLong": "We bieden veilige en tijdige overvoeringen met onze moderne bussen en wagens. Onze ervaren chauffeurs zorgen ervoor dat je team op tijd aan elke wedstrijd, training of evenement komt. Alle voertuigen zijn uitgerust met airconditioning, voldoende opslagruimte voor uitrusting en comfortabele zitplaatsen voor lange dagen.",
     "service_matches": "Wedstrijden",
     "service_matches_desc": "Competeer met internationale teams",
     "service_training": "Training",
     "service_training_desc": "Geleide sessies door professionals",
+    "service_training_descLong": "Onze training sessies worden geleid door professionele coaches en aangepast aan de behoeften van je team. Access top-kwaliteit faciliteiten, gepersonaliseerde programma's en de laatste sporttechnologie. Verbeter je vaardigheden, tactieken en teamcohesie met de leiding van experts en een stimulerende omgeving.",
     "service_tours": "Rondleidingen",
     "service_tours_desc": "Ontdek de stad en de cultuur",
     "service_other": "Andere",
-    "service_other_desc": "Extra diensten voor je comfort"
+    "service_other_desc": "Extra diensten voor je comfort",
+    "service_other_descLong": "We bieden een reeks extra diensten om je comfort te verbeteren, waaronder medische hulp, wassen, uitrusting verhuring en 24/7 ondersteuning. Ons team is toegewijd aan het garanderen van je comfort en het voldoen aan speciale eisen die je groep kan hebben tijdens je sportreis."
   }

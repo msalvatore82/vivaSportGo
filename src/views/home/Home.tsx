@@ -8,7 +8,6 @@ import Services from "../../components/services/Services.js";
 
 export default function Home() {
     const isMobile = useMediaQuery('(max-width:768px)');
-    console.log(isMobile);
   return (
     <Box sx={styleHome.container}>
         <Box sx={styleHome.headerContainer}>
