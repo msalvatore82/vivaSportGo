@@ -18,14 +18,20 @@
     "slide4_text": "Conquérez le terrain et laissez votre marque dans l'histoire.",
     "service_accommodation": "Hébergement",
     "service_accommodation_desc": "Chambres confortables pour votre équipe",
+    "service_accommodation_descLong": "Notre service d'hébergement offre des chambres modernes et confortables conçues spécifiquement pour les équipes sportives. Profitez d'espaces de convivence spacieux, d'accès à Internet haut débit, d'options alimentaires nutritives et d'un accès facile aux installations d'entraînement. Nous nous assurons qu'un environnement de repos permet à votre équipe de se concentrer sur ses performances et sa récupération.",
     "service_transport": "Transport",
     "service_transport_desc": "Transferts sécurisés et ponctuels",
+    "service_transport_descLong": "Nous offrons des transferts sécurisés et ponctuels avec notre parc de véhicules modernes. Nos conducteurs expérimentés nous assurons que votre équipe arrive à temps à chaque match, session d'entraînement ou événement. Tous les véhicules sont équipés d'air conditionné, d'espace pour équipements et de sièges confortables pour de longues journées.",
     "service_matches": "Matches",
     "service_matches_desc": "Compétitionz avec des équipes internationales",
+    "service_matches_descLong": "Participez à des matchs amicaux et compétitifs contre des équipes locales et internationales. Nous organisons des matchs adaptés à votre niveau et à vos objectifs, y compris des arbitres, des terrains officiels et des analyses post-match. Vivez l'émotion de la compétition internationale et construisez des relations sportives durables.",
     "service_training": "Entraînement",
     "service_training_desc": "Sessions guidées par des professionnels",
+    "service_training_descLong": "Nos sessions d'entraînement sont guidées par des professionnels et adaptées aux besoins de votre équipe. Accédez à des installations de haute qualité, à des programmes personnalisés et à la dernière technologie sportive. Améliorez vos compétences, tactiques et cohésion de l'équipe grâce à la direction d'experts et à un environnement motivant.",
     "service_tours": "Tours",
     "service_tours_desc": "Découvrez la ville et la culture",
+    "service_tours_descLong": "Découvrez la ville et sa culture avec nos guides. Explorez les lieux historiques, profitez de la nourriture locale et vivez l'atmosphère animée de Valence. Nos visites sont conçues pour offrir une relaxation et un enrichissement culturel entre vos engagements sportifs.",
     "service_other": "Autres",
-    "service_other_desc": "Services supplémentaires pour votre confort"
+    "service_other_desc": "Services supplémentaires pour votre confort",
+    "service_other_descLong": "Nous offrons une gamme de services supplémentaires pour améliorer votre séjour, y compris l'assistance médicale, la blanchisserie, le matériel de location et le support 24/7. Notre équipe est dédiée à garantir votre confort et à répondre à toutes les exigences spéciales que votre groupe peut avoir lors de son voyage sportif."
     }

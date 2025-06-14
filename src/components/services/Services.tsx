@@ -8,6 +8,7 @@ import organiza from '../../assets/organiza.jpg';
 import valenc from '../../assets/valenc.jpg';
 import servicedAppartment from '../../assets/serviced-apartment.png';
 import serviceTurismo from '../../assets/service-turismo.jpg';
+import { Link } from "react-router-dom";
 
 export default function Services() {
   const { t } = useTranslation();
@@ -25,12 +26,12 @@ export default function Services() {
     },
     {
       key: 'service_matches',
-      image: hocker2,
+      image: organiza,
       description: t('service_matches_desc'),
     },
     {
       key: 'service_training',
-      image: organiza,
+      image: hocker2,
       description: t('service_training_desc'),
     },
     {
@@ -51,11 +52,13 @@ export default function Services() {
       <Box style={{ ...styles.cardsContainer, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
         {services.map((service) => (
           <Box key={service.key} style={{ flex: '1 1 300px', maxWidth: '350px', minWidth: '250px', display: 'flex', justifyContent: 'center' }}>
-            <Cards
-              title={t(service.key)}
-              description={service.description}
-              image={service.image}
-            />
+            <Link to={`/services/${service.key}`} style={{ textDecoration: 'none', width: '100%' }}>
+              <Cards
+                title={t(service.key)}
+                description={service.description}
+                image={service.image}
+              />
+            </Link>
           </Box>
         ))}
       </Box>
