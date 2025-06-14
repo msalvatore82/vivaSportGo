@@ -18,14 +18,18 @@
     "slide4_text": "Conquista il campo e lascia la tua traccia nella storia.",
     "service_accommodation": "Alloggio",
     "service_accommodation_desc": "Stanze confortevoli per il tuo team",
+    "service_accommodation_descLong": "Il nostro servizio di alloggio offre stanze moderne e comode progettate specificamente per squadre sportive. Goditi spazi di convivenza ampi, accesso a Internet ad alta velocità, opzioni alimentari nutriente e facile accesso alle installazioni di allenamento. Ci assicuriamo che il tuo team abbia un ambiente di riposo per poter concentrarsi sulle sue prestazioni e la sua ripristino.",
     "service_transport": "Trasporto",
     "service_transport_desc": "Trasferimenti sicuri e puntuali",
+    "service_transport_descLong": "Offriamo trasferimenti sicuri e puntuali con il nostro parco di veicoli moderni. I nostri autisti esperti ci assicurano che il tuo team arrivi a tempo a ogni partita, sessione di allenamento o evento. Tutti i veicoli sono equipaggiati con aria condizionata, spazio per attrezzature e sedili confortevoli per lunghi giorni.",
     "service_matches": "Partite",
     "service_matches_desc": "Competi con squadre internazionali",
     "service_training": "Allenamento",
     "service_training_desc": "Sessioni guidate da professionisti",
+    "service_training_descLong": "Le nostre sessioni di allenamento sono guidate da professionisti e adattate alle esigenze del tuo team. Accedi a installazioni di alta qualità, programmi personalizzati e la tecnologia sportiva più recente. Migliora le tue abilità, tattiche e coesione del team grazie alla guida di esperti e un ambiente motivante.",
     "service_tours": "Tours",
     "service_tours_desc": "Scopri la città e la cultura",
     "service_other": "Altro",
-    "service_other_desc": "Servizi extra per il tuo comfort"
+    "service_other_desc": "Servizi extra per il tuo comfort",
+    "service_other_descLong": "Offriamo una gamma di servizi aggiuntivi per migliorare la tua permanenza, compresa l'assistenza medica, la lavanderia, il noleggio di attrezzature e il supporto 24/7. Il nostro team è dedito a garantire il tuo comfort e a rispondere a tutte le esigenze speciali che il tuo gruppo può avere durante il suo viaggio sportivo."
   }

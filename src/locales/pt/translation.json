@@ -19,14 +19,20 @@
     "slide4_text": "Conquiste o campo e deixe sua marca na história.",  
     "service_accommodation": "Acomodação",
     "service_accommodation_desc": "Quartos confortáveis para seu time",
+    "service_accommodation_descLong": "Nosso serviço de acomodação oferece quartos modernos e confortáveis projetados especificamente para times esportivos. Desfrute de áreas de convivência espaçosas, acesso a Internet de alta velocidade, opções alimentares nutritivas e fácil acesso a instalações de treinamento. Nós nos certificamos de que seu time tenha um ambiente de descanso para que possa se concentrar em suas performances e recuperação.",
     "service_transport": "Transporte",
     "service_transport_desc": "Transferências seguras e pontuais",
+    "service_transport_descLong": "Oferecemos transferências seguras e pontuais com nosso parque de veículos modernos. Nossos motoristas experientes nos certificam de que seu time chega a tempo a cada partida, sessão de treinamento ou evento. Todos os veículos são equipados com ar-condicionado, espaço para equipamentos e assentos confortáveis para longos dias.",
     "service_matches": "Partidas",
     "service_matches_desc": "Compete com equipes internacionais",
+    "service_matches_descLong": "Participe em partidas amistosas e competitivas contra equipes locais e internacionais. Organizamos partidas ajustadas ao seu nível e objetivos, incluindo árbitros, campos oficiais e análises pós-partida. Experimente a emoção da competição internacional e construa relações esportivas duradouras.",
     "service_training": "Treinamento",
     "service_training_desc": "Sessões guiadas por profissionais",
+    "service_training_descLong": "Nossas sessões de treinamento são guiadas por profissionais e adaptadas às necessidades do seu time. Acesse instalações de alta qualidade, programas personalizados e a última tecnologia esportiva. Melhore suas habilidades, táticas e coesão do time graças à direção de especialistas e um ambiente motivador.",
     "service_tours": "Tours",
     "service_tours_desc": "Descubra a cidade e a cultura",
+    "service_tours_descLong": "Descubra a cidade e a cultura com nossas guias. Explore os lugares históricos, desfrute da comida local e viva a atmosfera animada de Valência. Nossas visitas são projetadas para oferecer relaxamento e enriquecimento cultural entre seus compromissos esportivos.",
     "service_other": "Outros",
-    "service_other_desc": "Serviços adicionais para seu conforto"
+    "service_other_desc": "Serviços adicionais para seu conforto",
+    "service_other_descLong": "Oferecemos uma gama de serviços adicionais para melhorar sua estadia, incluindo assistência médica, lavanderia, aluguel de equipamentos e suporte 24/7. Nosso time está dedicado a garantir seu conforto e atender a quaisquer requisitos especiais que seu grupo possa ter durante seu viagem esportiva."
   }

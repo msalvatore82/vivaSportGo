@@ -13,8 +13,18 @@ export default function Cards({
   description = 'Descripción',
 }: CardsProps) {
   return (
-    <Card sx={styles.card}>
+    <Card
+      sx={{
+        ...styles.card,
+        overflow: 'hidden',
+        cursor: 'pointer',
+        '&:hover .card-img-zoom': {
+          transform: 'scale(1.1)',
+        },
+      }}
+    >
       <CardMedia
+        className="card-img-zoom"
         sx={styles.cardImg}
         component="img"
         height="194"

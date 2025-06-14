@@ -1,14 +1,13 @@
 import React from 'react';
 import { Select, MenuItem } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-import { styles } from './style.js';
+import { styles } from './style';
 
 interface LanguageSelectorProps {
   isSidebar?: boolean;
 }
 
 const LanguageSelector: React.FC<LanguageSelectorProps> = ({ isSidebar }) => {
-  console.log("🚀 ~ isSidebar:", isSidebar)
   const { i18n } = useTranslation();
   const languages = [
     { code: 'es', label: 'ES', flag: '🇪🇸' },
