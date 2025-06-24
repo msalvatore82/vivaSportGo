@@ -28,7 +28,13 @@ export default function HeroParallax() {
         <img
           src={valenciaImage2}
           alt="Valencia Sports Tourism"
-          style={styles.parallaxImage}
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            objectPosition: 'center', 
+            }
+          }
         />
         <Box sx={styles.overlay} />
       </Box>

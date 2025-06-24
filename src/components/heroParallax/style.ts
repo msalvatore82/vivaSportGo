@@ -22,7 +22,7 @@ export const styles = {
   parallaxImage: {
     width: '100%',
     height: '100%',
-    objectFit: 'cover',
+    objectFit: 'cover' as const,
     objectPosition: 'center',
   },
   overlay: {
@@ -54,7 +54,7 @@ export const styles = {
     fontSize: { xs: '2.5rem', md: '4rem', lg: '5rem' },
     fontWeight: 900,
     lineHeight: 1.1,
-    marginBottom: '2rem',
+    marginBottom: '1rem',
     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
     borderTop: '4px solid var(--color-white)',
     borderBottom: '4px solid var(--color-white)',
