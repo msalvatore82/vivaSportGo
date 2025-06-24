@@ -39,6 +39,30 @@ export const styles = {
     textDecoration: 'none',
     fontWeight: '500',
     fontSize: '2rem',
+    position: 'relative',
+    transition: 'color 0.3s ease',
+    '&:hover': {
+      color: 'var(--color-black)',
+    },
+    '&::after': {
+      content: '""',
+      position: 'absolute',
+      bottom: '-5px',
+      left: '0',
+      width: '0',
+      height: '3px',
+      backgroundColor: 'var(--color-primary)',
+      transition: 'width 0.3s ease',
+    },
+    '&:hover::after': {
+      width: '100%',
+    },
+    '&.active': {
+      // color: 'var(--color-primary)',
+    },
+    '&.active::after': {
+      width: '100%',
+    },
   },
   languageSelector: {
     display: 'flex',
