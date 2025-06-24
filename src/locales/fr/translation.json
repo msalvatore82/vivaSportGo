@@ -46,5 +46,11 @@
     "howwework_arrival": "Arrivée",
     "howwework_arrival_desc": "Bienvenue et commencez votre aventure",
     "howwework_celebration": "Fête",
-    "howwework_celebration_desc": "Profitez du match et de la fête"
+    "howwework_celebration_desc": "Profitez du match et de la fête",
+    "footer_description": "Spécialistes du tourisme sportif pour les équipes de rugby et de hockey vétérans dans la Communauté Valencienne et la Costa del Sol.",
+    "footer_quick_links": "Liens rapides",
+    "footer_contact": "Contact",
+    "footer_rights": "Tous droits réservés.",
+    "contact_success": "Votre message a été envoyé avec succès.",
+    "contact_error": "Une erreur est survenue. Veuillez réessayer."
     }
