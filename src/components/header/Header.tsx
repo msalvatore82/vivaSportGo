@@ -6,17 +6,34 @@ import Toolbar from '@mui/material/Toolbar';
 import Box from '@mui/material/Box';
 import { styles } from './style';
 import LanguageSelector from '../languajeSelector/LanguageSelector';
+import Link from '@mui/material/Link';
 
 export default function Header() {
   const { t } = useTranslation();
 
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
   const [visible, setVisible] = useState(true);
+  const [activeSection, setActiveSection] = useState('');
 
   const handleScroll = () => {
     const currentScrollPos = window.pageYOffset;
     setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
     setPrevScrollPos(currentScrollPos);
+
+    // Detectar sección activa
+    const sections = ['howwework', 'experiences', 'contact'];
+    const scrollPosition = currentScrollPos + 100; // Offset para el header
+
+    for (const section of sections) {
+      const element = document.getElementById(section);
+      if (element) {
+        const { offsetTop, offsetHeight } = element;
+        if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+          setActiveSection(section);
+          break;
+        }
+      }
+    }
   };
 
   useEffect(() => {
@@ -53,10 +70,31 @@ export default function Header() {
             VIVASPORTGO<span style={{ color: "#00bfff" }}>+</span>
           </div>
         </Box>
-        <Box style={styles.headerNav}>
-          <a href="#servicios" style={styles.headerLink}>{t('services_title')}</a>
-          <a href="#proceso" style={styles.headerLink}>{t('process_title')}</a>
-          <a href="#contacto" style={styles.headerLink}>{t('contact_title')}</a>
+        <Box sx={styles.headerNav}>
+          <Link
+            href="#howwework"
+            underline="none"
+            className={activeSection === 'howwework' ? 'active' : ''}
+            sx={styles.headerLink}
+          >
+            {t('how_we_work')}
+          </Link>
+          <Link
+            href="#experiences"
+            underline="none"
+            className={activeSection === 'experiences' ? 'active' : ''}
+            sx={styles.headerLink}
+          >
+            {t('experiences')}
+          </Link>
+          <Link
+            href="#contact"
+            underline="none"
+            className={activeSection === 'contact' ? 'active' : ''}
+            sx={styles.headerLink}
+          >
+            {t('contact_title')}
+          </Link>
         </Box>
         <Box style={styles.languageSelector}>
           <LanguageSelector />
