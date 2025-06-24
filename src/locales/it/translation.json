@@ -43,5 +43,11 @@
     "howwework_arrival": "Arrivo",
     "howwework_arrival_desc": "Benvenuto e inizia la tua avventura",
     "howwework_celebration": "Festa",
-    "howwework_celebration_desc": "Goditi il match e la festa"
+    "howwework_celebration_desc": "Goditi il match e la festa",
+    "footer_description": "Specialisti in turismo sportivo per squadre di rugby e hockey veterani nella Comunità Valenciana e la Costa del Sol.",
+    "footer_quick_links": "Collegamenti rapidi",
+    "footer_contact": "Contatto",
+    "footer_rights": "Tutti i diritti riservati.",
+    "contact_success": "Il tuo messaggio è stato inviato con successo.",
+    "contact_error": "Si è verificato un errore. Per favore, riprova."
     }

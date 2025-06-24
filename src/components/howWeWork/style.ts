@@ -6,7 +6,12 @@ export const styles = {
     justifyContent: 'center',
     gap: { xs: 4, md: 6 },
     py: 6,
-    background: 'var(--color-bg-secondary)',
+    position: 'relative',
+    width: '100%',
+    overflow: 'hidden',
+    '@media (max-width: 768px)': {
+      paddingTop: '4rem',
+    },
   },
   step: {
     display: 'flex',
@@ -21,6 +26,12 @@ export const styles = {
     width: 80,
     height: 80,
     marginBottom: 16,
+  },
+  title_howwework: {
+    fontWeight: 900,
+    color: 'var(--color-primary)',
+    textAlign: 'center',
+    fontSize: { xs: '2rem', md: '2.5rem' },
   },
   title: {
     fontWeight: 700,
