@@ -2,7 +2,7 @@ import { Box, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 import valenciaImage2 from '../../assets/valencia_3.jpg';
-import { styles } from './style.ts';
+import { styles } from './style';
 
 export default function HeroParallax() {
   const { t } = useTranslation();
@@ -10,10 +10,13 @@ export default function HeroParallax() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrollY(window.scrollY);
+      // Usar requestAnimationFrame para mejor performance
+      requestAnimationFrame(() => {
+        setScrollY(window.scrollY);
+      });
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -22,19 +25,15 @@ export default function HeroParallax() {
       <Box
         sx={{
           ...styles.parallaxContainer,
-          transform: `translateY(${scrollY * 0.5}px)`,
+          transform: `translateY(${scrollY * 0.3}px)`,
+          willChange: 'transform',
         }}
       >
-        <img
+        <Box
+          component="img"
           src={valenciaImage2}
           alt="Valencia Sports Tourism"
-          style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            objectPosition: 'center', 
-            }
-          }
+          sx={styles.parallaxImage}
         />
         <Box sx={styles.overlay} />
       </Box>

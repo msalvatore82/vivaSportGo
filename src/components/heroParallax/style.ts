@@ -16,14 +16,18 @@ export const styles = {
     top: 0,
     left: 0,
     width: '100%',
-    height: '120%', // Más alto para el efecto parallax
+    height: '130%', // Aumentado para más efecto parallax
     zIndex: 1,
+    willChange: 'transform', // Optimización de performance
+    transform: 'translateZ(0)', // Forzar hardware acceleration
   },
   parallaxImage: {
     width: '100%',
     height: '100%',
     objectFit: 'cover' as const,
     objectPosition: 'center',
+    willChange: 'transform', // Optimización de performance
+    transform: 'translateZ(0)', // Forzar hardware acceleration
   },
   overlay: {
     position: 'absolute',

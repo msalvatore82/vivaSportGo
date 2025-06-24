@@ -1,4 +1,3 @@
-
 {
     "welcome": "Bem-vindo",
       "contact_title": "Contato",
@@ -34,5 +33,19 @@
     "service_tours_descLong": "Descubra a cidade e a cultura com nossas guias. Explore os lugares históricos, desfrute da comida local e viva a atmosfera animada de Valência. Nossas visitas são projetadas para oferecer relaxamento e enriquecimento cultural entre seus compromissos esportivos.",
     "service_other": "Outros",
     "service_other_desc": "Serviços adicionais para seu conforto",
-    "service_other_descLong": "Oferecemos uma gama de serviços adicionais para melhorar sua estadia, incluindo assistência médica, lavanderia, aluguel de equipamentos e suporte 24/7. Nosso time está dedicado a garantir seu conforto e atender a quaisquer requisitos especiais que seu grupo possa ter durante seu viagem esportiva."
-  }
+    "service_other_descLong": "Oferecemos uma gama de serviços adicionais para melhorar sua estadia, incluindo assistência médica, lavanderia, aluguel de equipamentos e suporte 24/7. Nosso time está dedicado a garantir seu conforto e atender a quaisquer requisitos especiais que seu grupo possa ter durante seu viagem esportiva.",
+    "hero_title": "TOURISMO SPORTIF À VALENCIA",
+    "hero_subtitle": "EXPERIENCES DE RUGBY ET DE HOCKEY POUR VETERANS",
+    "hero_description": "Nous concevons des expériences sportives uniques pour les équipes de vétérans dans la Communauté Valencienne et la Costa del Sol. Voyagez, profitez et vivez le sport comme un légendaire.",
+    "how_we_work": "Comment nous travaillons",
+    "experiences": "Expériences",
+    "howwework_contact": "Contato",
+    "howwework_contact_desc": "Fale conosco",
+    "howwework_design": "Projetar o viagem",
+    "howwework_design_desc": "Planejamos sua experiência perfeita",
+    "howwework_arrival": "Chegada",
+    "howwework_arrival_desc": "Bem-vindo e comece sua aventura",
+    "howwework_celebration": "Festa",
+    "howwework_celebration_desc": "Desfrute do jogo e da festa"
+   
+}
