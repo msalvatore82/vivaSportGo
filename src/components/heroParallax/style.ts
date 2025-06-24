@@ -9,6 +9,7 @@ export const styles = {
     marginTop: '-2.3rem',
     '@media (max-width: 768px)': {
       marginTop: '-2rem',
+      height: '70vh',
     },
   },
   parallaxContainer: {
@@ -16,10 +17,13 @@ export const styles = {
     top: 0,
     left: 0,
     width: '100%',
-    height: '130%', // Aumentado para más efecto parallax
+    height: '130%',
     zIndex: 1,
     willChange: 'transform', // Optimización de performance
     transform: 'translateZ(0)', // Forzar hardware acceleration
+    '@media (max-width: 768px)': {
+      height: '100%',
+    },
   },
   parallaxImage: {
     width: '100%',

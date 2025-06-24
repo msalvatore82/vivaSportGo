@@ -2,7 +2,7 @@ import React from 'react';
 import { Drawer, List, ListItem, ListItemText, IconButton, Box } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import logo from '../../assets/logo.svg';
-import { styles } from './style.js';
+import { styles } from './style';
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from '../languajeSelector/LanguageSelector.js';
 
@@ -15,6 +15,14 @@ export default function Sidebar() {
       return;
     }
     setOpen(open);
+  };
+
+  const handleNavigation = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    setOpen(false);
   };
 
   return (
@@ -44,13 +52,13 @@ export default function Sidebar() {
 
         <Drawer anchor="right" open={open} onClose={toggleDrawer(false)}>
             <List sx={styles.list}>
-                <ListItem button onClick={toggleDrawer(false)}>
-                    <ListItemText primary={t('welcome')} />
+                <ListItem button onClick={() => handleNavigation('howwework')}>
+                    <ListItemText primary={t('how_we_work')} />
                 </ListItem>
-                <ListItem button onClick={toggleDrawer(false)}>
-                    <ListItemText primary={t('services_title')} />
+                <ListItem button onClick={() => handleNavigation('experiences')}>
+                    <ListItemText primary={t('experiences')} />
                 </ListItem>
-                <ListItem button onClick={toggleDrawer(false)}>
+                <ListItem button onClick={() => handleNavigation('contact')}>
                     <ListItemText primary={t('contact_title')} />
                 </ListItem>
             </List>
