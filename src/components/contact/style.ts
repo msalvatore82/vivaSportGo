@@ -1,8 +1,7 @@
 export const styles = {
     container: {
       width: '100%',
-      height: '100px',
-      
+      minHeight: '300px', // Opcional: asegura espacio mínimo
     },
     card: {
       maxWidth: '450px',

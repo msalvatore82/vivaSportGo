@@ -23,7 +23,7 @@ export const styleHome = {
       height: '18.75rem', // 300px = 18.75rem
     },
   },
-  serviciosContainer: {
+  howWeWorkContainer: {
     width: '100%',
     margin: '0 auto',
     padding: '2rem 0 0 0',
@@ -32,6 +32,14 @@ export const styleHome = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    marginTop: '2rem',
+  },
+  experiencesContainer: {
+    width: '100%',
+    margin: '0 auto',
+    padding: '2rem 0 0 0',
+    maxWidth: '75rem',
+    boxSizing: 'border-box',
   },
   contactContainer: {
     width: '100%',
@@ -43,4 +51,4 @@ export const styleHome = {
     flexDirection: 'column',
     alignItems: 'center',
   },
-};
+}

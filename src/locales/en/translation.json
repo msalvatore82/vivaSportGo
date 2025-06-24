@@ -46,5 +46,11 @@
     "howwework_arrival": "Arrival",
     "howwework_arrival_desc": "Welcome and start your adventure",
     "howwework_celebration": "Celebration",
-    "howwework_celebration_desc": "Enjoy the game and the party"
+    "howwework_celebration_desc": "Enjoy the game and the party",
+    "footer_description": "Specialists in sports tourism for veteran rugby and hockey teams in the Valencian Community and Costa del Sol.",
+    "footer_quick_links": "Quick Links",
+    "footer_contact": "Contact",
+    "footer_rights": "All rights reserved.",
+    "contact_success": "Your message has been sent successfully.",
+    "contact_error": "An error occurred. Please try again."
   }

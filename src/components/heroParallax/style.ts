@@ -6,7 +6,6 @@ export const styles = {
     height: '100vh',
     width: '100%',
     overflow: 'hidden',
-    marginTop: '-2.3rem',
     '@media (max-width: 768px)': {
       marginTop: '-2rem',
       height: '70vh',
