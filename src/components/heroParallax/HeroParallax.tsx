@@ -1,9 +1,8 @@
 import { Box, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
-import valenciaImage from '../../assets/valencia_2.jpeg';
 import valenciaImage2 from '../../assets/valencia_3.jpg';
-import { styles } from './style';
+import { styles } from './style.ts';
 
 export default function HeroParallax() {
   const { t } = useTranslation();
