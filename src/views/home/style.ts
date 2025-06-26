@@ -44,7 +44,7 @@ export const styleHome = {
   contactContainer: {
     width: '100%',
     margin: '0 auto',
-    padding: '2rem 0 0 0',
+    padding: '1rem 0 0 0',
     maxWidth: '75rem',
     boxSizing: 'border-box',
     display: 'flex',
