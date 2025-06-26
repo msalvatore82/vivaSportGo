@@ -33,7 +33,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ isSidebar }) => {
     >
       {languages.map(lang => (
         <MenuItem key={lang.code} value={lang.code} style={styles.languageOption}>
-          <span style={{ marginRight: 4, fontSize: '1.5rem', lineHeight: '1.5rem' }}>{lang.flag}</span> {isSidebar ? '' : lang.label}
+          <span style={{ marginRight: 4, fontSize: '1.2rem', lineHeight: '1.5rem' }}>{lang.flag}</span> {isSidebar ? '' : lang.label}
         </MenuItem>
       ))}
     </Select>

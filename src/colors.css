@@ -1,5 +1,6 @@
 :root {
   --color-primary: #00bfff;
+  --color-primary-hover: #108fb9;
   --color-accent: #ff7f32;
   --color-bg: #fff;
   --color-bg-secondary: #f5f7fa;
@@ -17,5 +18,6 @@
 
 .button-primary {
   background: var(--color-primary);
+  background-color: var(--color-primary-hover);
   color: var(--color-bg);
 }

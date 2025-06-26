@@ -1,7 +1,7 @@
 export const styles = {
   section: {
     width: '100%',
-    padding: '4rem 0',
+    padding: '1em 0',
     '@media (max-width: 600px)': {
       padding: '2rem 0',
     },
@@ -26,20 +26,22 @@ export const styles = {
     display: 'flex',
     flexDirection: { xs: 'column', md: reverse ? 'row-reverse' : 'row' },
     overflow: 'hidden',
-    minHeight: { md: 280 },
+    minHeight: { md: 250 },
     boxShadow: 'none',
     borderRadius: 0,
     border: 'none',
     background: 'var(--color-white)',
-     '@media (max-width: 600px)': {
+    '@media (max-width: 600px)': {
       width: '90%',
       margin: '0 auto',
-     },
+    },
   }),
   cardMedia: {
     width: { xs: '100%', md: 400 },
-    height: { xs: 180, md: '100%' },
+    height: { xs: 200, md: 'auto' },
     objectFit: 'cover',
+    flexShrink: 0,
+    alignSelf: 'stretch',
     '@media (max-width: 600px)': {
       height: 160,
     },
@@ -48,8 +50,12 @@ export const styles = {
     flex: 1,
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
     padding: { xs: '1.2rem', md: '2.5rem' },
+    minHeight: 0,
+    boxSizing: 'border-box',
+    overflow: 'visible',
     '@media (max-width: 600px)': {
       padding: '1rem',
     },
@@ -57,11 +63,13 @@ export const styles = {
   team: {
     fontWeight: 700,
     marginBottom: '0.5rem',
+    marginLeft: '1rem',
     fontSize: { xs: '1.1rem', md: '1.5rem' },
   },
   sport: {
     color: 'var(--color-orange)',
     marginBottom: '1rem',
+    marginLeft: '1rem',
     fontSize: { xs: '0.95rem', md: '1.1rem' },
     fontWeight: 600,
   },
@@ -69,5 +77,19 @@ export const styles = {
     color: 'var(--color-text)',
     fontSize: { xs: '0.95rem', md: '1.1rem' },
     lineHeight: 1.6,
+    marginLeft: '1rem',
+  },
+  country: {
+    color: 'var(--color-orange)',
+    fontSize: { xs: '0.95rem', md: '1.1rem' },
+    lineHeight: 1.6,
+    marginLeft: '1rem',
+  },
+  name: {
+    color: 'var(--color-text)',
+    fontSize: { xs: '0.95rem', md: '1.2rem' },
+    lineHeight: 1.6,
+    fontWeight: 600,
+    marginLeft: '1rem',
   },
 };

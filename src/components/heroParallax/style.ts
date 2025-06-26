@@ -18,8 +18,8 @@ export const styles = {
     width: '100%',
     height: '130%',
     zIndex: 1,
-    willChange: 'transform', // Optimización de performance
-    transform: 'translateZ(0)', // Forzar hardware acceleration
+    willChange: 'transform', 
+    transform: 'translateZ(0)', 
     '@media (max-width: 768px)': {
       height: '100%',
     },
@@ -29,8 +29,8 @@ export const styles = {
     height: '100%',
     objectFit: 'cover' as const,
     objectPosition: 'center',
-    willChange: 'transform', // Optimización de performance
-    transform: 'translateZ(0)', // Forzar hardware acceleration
+    willChange: 'transform', 
+    transform: 'translateZ(0)',
   },
   overlay: {
     position: 'absolute',
@@ -74,11 +74,11 @@ export const styles = {
     },
   },
   subtitle: {
-    color: 'var(--color-orange)',
+    color: 'var(--color-white)',
+    textShadow: '1px 1px 4px rgba(0,0,0,0.7)',
     fontSize: { xs: '1.2rem', md: '1.5rem', lg: '1.8rem' },
     fontWeight: 600,
     marginBottom: '1rem',
-    textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)',
     '@media (max-width: 768px)': {
       fontSize: '1rem',
     },

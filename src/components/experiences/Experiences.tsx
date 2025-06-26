@@ -8,24 +8,27 @@ import { styles } from './style.ts';
 const experiences = [
   {
     image: rugby,
-    team: 'Valencia Veterans RFC',
-    sport: 'Rugby',
-    country: 'España',
+    teamKey: 'experience_rugby_team',
+    sportKey: 'experience_rugby_sport',
+    countryKey: 'experience_rugby_country',
     storyKey: 'experience_rugby_story',
+    nameKey: 'experience_rugby_name',
   },
   {
     image: hockey_male,
-    team: 'Amsterdam HC',
-    sport: 'Hockey Masculino',
-    country: 'Países Bajos',
+    teamKey: 'experience_hockey_male_team',
+    sportKey: 'experience_hockey_male_sport',
+    countryKey: 'experience_hockey_male_country',
     storyKey: 'experience_hockey_male_story',
+    nameKey: 'experience_hockey_male_name',
   },
   {
     image: hockey_female,
-    team: 'London Ladies HC',
-    sport: 'Hockey Femenino',
-    country: 'Reino Unido',
+    teamKey: 'experience_hockey_female_team',
+    sportKey: 'experience_hockey_female_sport',
+    countryKey: 'experience_hockey_female_country',
     storyKey: 'experience_hockey_female_story',
+    nameKey: 'experience_hockey_female_name',
   },
 ];
 
@@ -39,23 +42,30 @@ export default function Experiences() {
       </Typography>
       <Grid container direction="column" spacing={6} alignItems="center">
         {experiences.map((exp, idx) => (
-          <Grid item key={exp.team} sx={styles.cardWrapper}>
+          <Grid item key={exp.teamKey} sx={styles.cardWrapper}>
             <Card sx={styles.card(idx % 2 !== 0)}>
               <CardMedia
                 component="img"
                 image={exp.image}
-                alt={exp.team}
+                alt={exp.teamKey}
                 sx={styles.cardMedia}
               />
               <CardContent sx={styles.cardContent}>
                 <Typography variant="h5" sx={styles.team}>
-                  {exp.team} ({exp.country})
+                  {t(exp.teamKey)}
                 </Typography>
                 <Typography variant="subtitle1" sx={styles.sport}>
-                  {exp.sport}
+                  {t(exp.sportKey)}
                 </Typography>
+                <Typography variant="subtitle1" sx={styles.country}>
+                  {t(exp.countryKey)}
+                </Typography>
+              
                 <Typography variant="body1" sx={styles.story}>
                   {t(exp.storyKey)}
+                </Typography>
+                <Typography variant="subtitle1" sx={styles.name}>
+                  {t(exp.nameKey)}
                 </Typography>
               </CardContent>
             </Card>
