@@ -43,7 +43,7 @@ export default function Contacto() {
 
   return (
     <Box id="contact" sx={styles.container}>
-      <Typography gutterBottom variant="h3" align="center">
+      <Typography gutterBottom variant="h3" align="center" sx={styles.title}>
         {t('contact_title')}
       </Typography>
       <Grid>
@@ -122,9 +122,9 @@ export default function Contacto() {
                   <Button
                     type="submit"
                     variant="contained"
-                    color="primary"
                     fullWidth
                     disabled={disabled}
+                    sx={styles.button}
                   >
                     {t('contact_send')}
                   </Button>

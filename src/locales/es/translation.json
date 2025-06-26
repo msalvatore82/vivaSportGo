@@ -52,5 +52,20 @@
   "footer_contact": "Contacto",
   "footer_rights": "Todos los derechos reservados.",
   "contact_success": "Tu mensaje ha sido enviado correctamente.",
-  "contact_error": "Ha ocurrido un error. Por favor, inténtalo de nuevo."
+  "contact_error": "Ha ocurrido un error. Por favor, inténtalo de nuevo.",
+  "experience_rugby_team": "Valencia Veterans RFC",
+  "experience_rugby_sport": "Rugby",
+  "experience_rugby_country": "España",
+  "experience_rugby_story": "Fuimos por el torneo... y volvimos con agujetas de tanto reírnos. La organización fue impecable: desde el primer mail hasta la última cerveza. Se nota que quien está detrás entiende lo que es el rugby, lo que es un tercer tiempo de verdad y lo que necesitamos los veteranos para disfrutar sin presión. Jugamos partidos intensos pero sin locuras, comimos como reyes, y el hotel tenía hasta sitio para estirar después de los partidos (aunque algunos lo usamos para siestas). Volveríamos con los ojos cerrados. Ah, y ganamos el premio al equipo con más tiempo en la barra. Merecido.",
+  "experience_rugby_name": "Carlos “Chino” R., capitán del Valencia Veterans RFC",
+  "experience_hockey_male_team": "Amsterdam HC",
+  "experience_hockey_male_sport": "Hockey Masculino",
+  "experience_hockey_male_country": "Países Bajos",
+  "experience_hockey_male_story": "No sabíamos si íbamos a correr más en la cancha o de bar en bar. Al final hicimos ambas. Fue un viaje espectacular, todo medido al detalle pero con flexibilidad. Los organizadores eran gente del deporte, lo notás: entienden nuestros ritmos, nuestros chistes y nuestras lesiones. El torneo tuvo nivel, pero sin agobios. Conocimos equipos de media Europa, y terminamos bailando con ellos en una bodega al lado del mar. ¡Un lujo! Ya estamos preguntando por la edición del año que viene. Ojalá podamos repetir con la misma tropa.",
+  "experience_hockey_male_name": "Jeroen V., portero veterano del Amsterdam HC",
+  "experience_hockey_female_team": "London Ladies HC",
+  "experience_hockey_female_sport": "Hockey Femenino",
+  "experience_hockey_female_country": "Reino Unido",
+  "experience_hockey_female_story": "¡Qué bien nos lo pasamos! Fue una mezcla de competición, turismo y risas a cualquier hora. Tuvimos partidos reñidos pero muy divertidos, y fuera del campo la atención fue impecable. Todo lo que necesitás cuando viajás con un grupo de mujeres +40: buena comida, camas cómodas y algún plan para brindar al final del día. Lo organizó gente que habla nuestro mismo idioma (el del deporte, claro). Ya estamos organizando camisetas nuevas... porque seguro volvemos. ¡Gracias por tratarnos como jugadoras, amigas y viajeras a la vez!",
+  "experience_hockey_female_name": "Sophie M., London Ladies HC"
 }

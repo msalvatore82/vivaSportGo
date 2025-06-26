@@ -8,7 +8,7 @@ export const styles = {
   },
   languageOption: {
     color: '#000',
-    fontSize: '1.5rem',
+    fontSize: '1rem',
     lineHeight: '1.5rem',
     fontWeight: '500',
     fontFamily: 'Montserrat, Arial, sans-serif',
