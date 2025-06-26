@@ -38,7 +38,7 @@ export const styles = {
     color: 'var(--color-text)',
     textDecoration: 'none',
     fontWeight: '500',
-    fontSize: '2rem',
+    fontSize: '1.2rem',
     position: 'relative',
     transition: 'color 0.3s ease',
     '&:hover': {

@@ -29,6 +29,7 @@ export const styles = {
   },
   title_howwework: {
     fontWeight: 900,
+    marginTop: { xs: '10rem', md: '0' },
     color: 'var(--color-primary)',
     textAlign: 'center',
     fontSize: { xs: '2rem', md: '2.5rem' },
