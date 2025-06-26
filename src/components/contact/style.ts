@@ -18,9 +18,12 @@ export const styles = {
     },
     title: {
       fontWeight: 900,
-      marginTop: { xs: '10rem', md: '0' },
       color: 'var(--color-primary)',
       textAlign: 'center',
-      fontSize: { xs: '2rem', md: '2.5rem' },
-        }
-  };
+      fontSize: '2rem',
+      marginTop: '2.5rem',
+      '@media (max-width: 600px)': {
+        marginTop: '0rem',
+      },
+    },
+};
