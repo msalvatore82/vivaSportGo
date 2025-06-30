@@ -7,6 +7,7 @@ import Sidebar from "../../components/sidebar/Sidebar.js";
 import HowWeWork from "../../components/howWeWork/HowWeWork.js";
 import Footer from "../../components/footer/Footer";
 import Experiences from "../../components/experiences/Experiences.js";
+import Counters from "../../components/counters/Counters.js";
 
 export default function Home() {
     const isMobile = useMediaQuery('(max-width:768px)');
@@ -29,6 +30,10 @@ export default function Home() {
         </Box>
         <Box sx={styleHome.experiencesContainer}>
             <Experiences />
+        </Box>
+        <Box sx={styleHome.countersContainer}>
+                <Counters
+                />
         </Box>
         <Box sx={styleHome.contactContainer}>
             <Contacto />

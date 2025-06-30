@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import { styles } from "./style";
+import { styles } from "./style.ts";
 import contact from "../../assets/contact.jpg";
 import design from "../../assets/design.png";
 import arrival from "../../assets/arrivals.png";
