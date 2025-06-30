@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Box, Grid, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { styles } from "./style.ts";
@@ -16,37 +16,38 @@ const countersData: CounterItem[] = [
 ];
 
 const Counter = ({ target }: { target: number }) => {
-  const [count, setCount] = useState(0);
-  const ref = useRef(0);
-  const animationFrameId = useRef<number>();
-
-  useEffect(() => {
-    const step = target / 60; // animación en ~1 segundo (60 frames)
-    const update = () => {
-      ref.current += step;
-      if (ref.current < target) {
-        setCount(Math.ceil(ref.current));
-        animationFrameId.current = requestAnimationFrame(update);
-      } else {
-        setCount(target);
-      }
-    };
-
-    animationFrameId.current = requestAnimationFrame(update);
-
-    return () => {
-      if (animationFrameId.current) {
-        cancelAnimationFrame(animationFrameId.current);
-      }
-    };
-  }, [target]);
-
-  return (
-    <Typography variant="h3" sx={styles.counterNumber}>
-      {count.toLocaleString()}
-    </Typography>
-  );
-};
+    const [count, setCount] = useState(0);
+    const ref = useRef<number>(0);
+    const animationFrameId = useRef<number | null>(null);
+  
+    useEffect(() => {
+      const step = target / 60; // animación en ~1 segundo (60 frames)
+      const update = () => {
+        ref.current += step;
+        if (ref.current < target) {
+          setCount(Math.ceil(ref.current));
+          animationFrameId.current = requestAnimationFrame(update);
+        } else {
+          setCount(target);
+        }
+      };
+  
+      animationFrameId.current = requestAnimationFrame(update);
+  
+      return () => {
+        if (animationFrameId.current !== null) {
+          cancelAnimationFrame(animationFrameId.current);
+        }
+      };
+    }, [target]);
+  
+    return (
+      <Typography variant="h3" sx={styles.counterNumber}>
+        {count.toLocaleString()}
+      </Typography>
+    );
+  };
+  
 
 const Counters = () => {
   const { t } = useTranslation();
