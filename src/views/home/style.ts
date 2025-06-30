@@ -51,4 +51,4 @@ export const styleHome = {
     flexDirection: 'column',
     alignItems: 'center',
   },
-}
+  }
