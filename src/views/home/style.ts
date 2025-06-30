@@ -41,6 +41,13 @@ export const styleHome = {
     maxWidth: '75rem',
     boxSizing: 'border-box',
   },
+  countersContainer: {
+    width: '100%',
+    margin: '0 auto',
+    padding: '2rem 0 0 0',
+    maxWidth: '75rem',
+    boxSizing: 'border-box',
+  },
   contactContainer: {
     width: '100%',
     margin: '0 auto',
