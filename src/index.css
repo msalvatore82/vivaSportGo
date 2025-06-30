@@ -5,3 +5,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@keyframes slideUp {
+  0% { transform: translateY(0); }
+  33% { transform: translateY(-160px); }
+  66% { transform: translateY(-320px); }
+  100% { transform: translateY(0); }
+}

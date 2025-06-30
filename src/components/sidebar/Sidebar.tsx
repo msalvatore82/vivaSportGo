@@ -50,8 +50,8 @@ export default function Sidebar() {
       </Box>
       <Box sx={styles.menuIconContainer}>
         <IconButton onClick={toggleDrawer(true)}>
-          <MenuIcon />
-        </IconButton>
+        <MenuIcon />
+      </IconButton>
       </Box>
 
       <Drawer
