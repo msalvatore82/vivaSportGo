@@ -103,8 +103,15 @@ export const styles = {
     left: 0,
   },
   carouselImage: {
-    width: 160,
-    height: 160,
+    width: "100%",
+    height: "100%",
     objectFit: "cover",
+    borderRadius: "5%",
+    transition: "transform 0.3s ease-in-out, object-fit 0.3s",
+    cursor: "pointer",
+    "&:hover": {
+      transform: "scale(1.1)",
+      objectFit: "cover",
+    },
   },
 };

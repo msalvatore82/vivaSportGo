@@ -7,7 +7,7 @@ export const styles = {
     },
   },
   title: {
-    marginBottom: '3rem',
+    marginBottom: '2rem',
     fontWeight: 900,
     color: 'var(--color-primary)',
     textAlign: 'center',
@@ -32,12 +32,12 @@ export const styles = {
     border: 'none',
     background: 'var(--color-white)',
     '@media (max-width: 600px)': {
-      width: '90%',
+      width: '85%',
       margin: '0 auto',
     },
   }),
   cardMedia: {
-    width: { xs: '100%', md: 400 },
+    width: { xs: '100%', md: 350 },
     height: { xs: 200, md: 'auto' },
     objectFit: 'cover',
     flexShrink: 0,
