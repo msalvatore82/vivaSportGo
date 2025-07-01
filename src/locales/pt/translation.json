@@ -73,5 +73,21 @@
     "counters_teamsTrustedUs": "Equipas que confiaram em nós",
     "counters_playersImpacted": "Jogadores impactados",
     "counters_queriesAnswered": "Consultas respondidas",
-    "counters_countriesReached": "Países alcançados"
+    "counters_countriesReached": "Países alcançados",
+    "contact_tournament_message": "Olá, gostaria de mais informações sobre o torneio \"{{tournament}}\". Obrigado!",
+    "upcoming_tournaments_title": "Próximos torneios",
+    "upcoming_tournaments_description": "Organizamos os seguintes torneios nos próximos meses. Se você está interessado em participar, entre em contato conosco.",
+    "trusted_teams_title": "Equipas que confiaram em nós",
+    "trusted_teams_title_1": "Hockey Club Valencia",
+    "trusted_teams_title_2": "Valencia Femenino",
+    "trusted_teams_title_3": "Veteranos Rugby",
+    "trusted_teams_description_1": "Equipa masculina, liga nacional.",
+    "trusted_teams_description_2": "Equipa feminina, campeãs regionais.",
+    "trusted_teams_description_3": "Equipa senior, amistosos internacionais.",
+    "upcoming_tournaments_title_1": "Torneo de Hockey Valencia",
+    "upcoming_tournaments_description_1": "Del 10 al 12 de mayo, Valencia. Categoría sub-18 y absoluta.",
+    "upcoming_tournaments_title_2": "Festival de Rugby Verano",
+    "upcoming_tournaments_description_2": "Del 20 al 22 de junio, playa de la Malvarrosa.",
+    "upcoming_tournaments_title_3": "Torneo Internacional Femenino",
+    "upcoming_tournaments_description_3": "Del 5 al 7 de julio, polideportivo municipal."
 }

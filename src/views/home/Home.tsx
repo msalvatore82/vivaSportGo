@@ -8,6 +8,8 @@ import HowWeWork from "../../components/howWeWork/HowWeWork.js";
 import Footer from "../../components/footer/Footer";
 import Experiences from "../../components/experiences/Experiences.js";
 import Counters from "../../components/counters/Counters.js";
+import UpcomingTournaments from "../../components/upcomingTournaments/UpcomingTournaments";
+import TrustedTeams from "../../components/trustedTeams/TrustedTeams";
 
 export default function Home() {
     const isMobile = useMediaQuery('(max-width:768px)');
@@ -32,9 +34,10 @@ export default function Home() {
             <Experiences />
         </Box>
         <Box sx={styleHome.countersContainer}>
-                <Counters
-                />
+            <Counters />
         </Box>
+        <UpcomingTournaments />
+        <TrustedTeams />
         <Box sx={styleHome.contactContainer}>
             <Contacto />
         </Box>
