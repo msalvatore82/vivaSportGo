@@ -49,10 +49,10 @@ export default function Footer() {
               </Typography>
               <Box sx={styles.contactInfo}>
                 <Typography sx={styles.contactItem}>
-                  📧 info@vivasportgo.com
+                  📧 vivasportgo@gmail.com
                 </Typography>
                 <Typography sx={styles.contactItem}>
-                  📱 +34 600 000 000
+                  📱 +34 662 692 496
                 </Typography>
                 <Typography sx={styles.contactItem}>
                   📍 Valencia, España

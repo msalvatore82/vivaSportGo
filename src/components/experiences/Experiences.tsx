@@ -8,6 +8,7 @@ import { styles } from './style.ts';
 const experiences = [
   {
     image: rugby,
+    alt: 'Rugby',
     teamKey: 'experience_rugby_team',
     sportKey: 'experience_rugby_sport',
     countryKey: 'experience_rugby_country',
@@ -16,6 +17,7 @@ const experiences = [
   },
   {
     image: hockey_male,
+    alt: 'Hockey',
     teamKey: 'experience_hockey_male_team',
     sportKey: 'experience_hockey_male_sport',
     countryKey: 'experience_hockey_male_country',
@@ -24,6 +26,7 @@ const experiences = [
   },
   {
     image: hockey_female,
+    alt: 'Hockey',
     teamKey: 'experience_hockey_female_team',
     sportKey: 'experience_hockey_female_sport',
     countryKey: 'experience_hockey_female_country',
@@ -47,7 +50,7 @@ export default function Experiences() {
               <CardMedia
                 component="img"
                 image={exp.image}
-                alt={exp.teamKey}
+                alt={exp.alt}
                 sx={styles.cardMedia}
               />
               <CardContent sx={styles.cardContent}>

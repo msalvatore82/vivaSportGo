@@ -14,7 +14,7 @@ export const styles = {
   },
   svgWrapper: {
     position: "absolute",
-    top: 120,
+    top: 180,
     left: 0,
     width: "100%",
     height: 220,

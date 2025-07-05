@@ -14,5 +14,5 @@ export const styles = {
     flexWrap: 'wrap',
     justifyContent: 'center',
     gap: '2rem',
-  },
+  },    
 }; 

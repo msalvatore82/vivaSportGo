@@ -12,34 +12,34 @@ import UpcomingTournaments from "../../components/upcomingTournaments/UpcomingTo
 import TrustedTeams from "../../components/trustedTeams/TrustedTeams";
 
 export default function Home() {
-    const isMobile = useMediaQuery('(max-width:768px)');
+  const isMobile = useMediaQuery("(max-width:768px)");
   return (
-    <Box sx={{
-      minHeight: '100vh',
-      display: 'flex',
-      flexDirection: 'column',
-      background: '#fafbfc',
-    }}>
+    <Box
+      sx={{
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        background: "#fafbfc",
+      }}
+    >
       <Box sx={{ flex: 1 }}>
-        <Box sx={styleHome.headerContainer}>
-            {isMobile ? <Sidebar /> : <Header />}
-        </Box>
-        <Box sx={styleHome.sliderContainer}>
-            <HeroParallax />
-        </Box>
+        {isMobile ? <Sidebar /> : <Header />}
+        <HeroParallax />
         <Box sx={styleHome.howWeWorkContainer}>
-            <HowWeWork />
-        </Box>
-        <Box sx={styleHome.experiencesContainer}>
-            <Experiences />
-        </Box>
-        <Box sx={styleHome.countersContainer}>
-            <Counters />
+          <HowWeWork />
         </Box>
         <UpcomingTournaments />
-        <TrustedTeams />
+        <Box sx={styleHome.experiencesContainer}>
+          <Experiences />
+        </Box>
+        <Box sx={styleHome.countersContainer}>
+          <Counters />
+        </Box>
+        <Box sx={styleHome.TrustedTeams}>
+          <TrustedTeams />
+        </Box>
         <Box sx={styleHome.contactContainer}>
-            <Contacto />
+          <Contacto />
         </Box>
       </Box>
       <Footer />

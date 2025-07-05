@@ -19,6 +19,7 @@ export const styles = {
     alignItems: 'center',
     flex: '1 1 0',
     minWidth: '180px',
+    cursor: 'pointer',
   },
   headerLogoImage: {
     width: '3rem',
