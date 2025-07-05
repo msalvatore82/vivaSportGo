@@ -7,10 +7,11 @@ import Box from '@mui/material/Box';
 import { styles } from './style';
 import LanguageSelector from '../languajeSelector/LanguageSelector';
 import Link from '@mui/material/Link';
+import { useNavigate } from 'react-router-dom';
 
 export default function Header() {
   const { t } = useTranslation();
-
+  const navigate = useNavigate();
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
   const [visible, setVisible] = useState(true);
   const [activeSection, setActiveSection] = useState('');
@@ -56,8 +57,9 @@ export default function Header() {
       }}
     >
       <Toolbar sx={styles.header}>
-        <Box style={styles.headerLogo}>
-          <img src={logo} alt="logo" style={styles.headerLogoImage} />
+        <Box style={styles.headerLogo} onClick={() => navigate('/')}>
+          <img src={logo} alt="logo" style={styles.headerLogoImage} 
+          />
           <div
             style={{
               fontSize: '1.2rem',

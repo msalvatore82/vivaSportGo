@@ -1,13 +1,13 @@
 import { Box, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import { styles } from "./style.ts";
-import contact from "../../assets/contact.jpg";
-import design from "../../assets/design.png";
-import arrival from "../../assets/arrivals.png";
-import celebration from "../../assets/celebration.png";
-import play from "../../assets/playhockeymen.jpg";
-import play2 from "../../assets/playRugbyMen.jpg";
-import play3 from "../../assets/playFemHockey.jpg";
+import contact from "../../assets/contact.webp";
+import design from "../../assets/design.webp";
+import arrival from "../../assets/arrivals.webp";
+import celebration from "../../assets/celebration.webp";
+import play from "../../assets/playhockeymen.webp";
+import play2 from "../../assets/playRugbyMen.webp";
+import play3 from "../../assets/playFemHockey.webp";
 
 const steps = [
   {
@@ -58,7 +58,7 @@ export default function HowWeWork() {
             d="M 60 180 Q 250 20 500 120 Q 750 220 940 40"
             stroke="#FF9800"
             strokeWidth="4"
-            strokeDasharray="10,12"
+            strokeDasharray="16,16"
             fill="none"
           />
         </svg>

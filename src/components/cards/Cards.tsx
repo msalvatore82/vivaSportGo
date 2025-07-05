@@ -5,12 +5,14 @@ interface CardsProps {
   image?: string;
   title?: string;
   description?: string;
+  alt?: string;
 }
 
 export default function Cards({
   image = '',
   title = 'Titulo',
   description = 'Descripción',
+  alt = 'Alt',
 }: CardsProps) {
   return (
     <Card
@@ -29,7 +31,7 @@ export default function Cards({
         component="img"
         height="194"
         image={image}
-        alt={title}
+        alt={alt}
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary" sx={styles.title}>

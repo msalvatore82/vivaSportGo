@@ -58,4 +58,12 @@ export const styleHome = {
     flexDirection: 'column',
     alignItems: 'center',
   },
-  }
+  TrustedTeams: {
+    width: '100%',
+    margin: '0 auto',
+    padding: '2rem 0 0 0',
+    maxWidth: '75rem',
+    boxSizing: 'border-box',
+  },
+
+}
