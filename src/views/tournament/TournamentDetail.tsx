@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { styles } from "./style";
 import torneo1 from "../../assets/paella-cup.webp";
 import torneo2 from "../../assets/mal-de-altura.webp";
-import torneo3 from "../../assets/EGORF-2024.webp";
+import torneo3 from "../../assets/egorf-2024.webp";
 import Footer from "../../components/footer/Footer";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Header from "../../components/header/Header";
